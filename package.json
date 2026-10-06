@@ -9,7 +9,7 @@
     "start": "NODE_ENV=production node dist/index.js",
     "check": "tsc --noEmit",
     "format": "prettier --write .",
-    "test": "vitest run",n
+    "test": "vitest run",
     "test:resend:live": "RESEND_LIVE_CREDENTIAL_TEST=1 vitest run server/resend-owner-alert.credentials.test.ts",
     "db:push": "drizzle-kit generate && drizzle-kit migrate"
   },
